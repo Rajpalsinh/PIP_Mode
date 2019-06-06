@@ -8,17 +8,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!--<activity android:name=".MockHomeActivity"
-            android:launchMode="singleTask">
-
-            &lt;!&ndash; Comment the intent-filter to see how fragments work instead of activity-based navigation &ndash;&gt;
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>-->
-        <!--<activity android:name=".MockDetailsActivity" />-->
         <activity android:name=".WatchActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
             android:supportsPictureInPicture="true">
